@@ -15,7 +15,6 @@ public:
         int i = 0;
         while (i < nums.size()) {
             int difference = nums[i] - currValue;
-            
             if (difference < 0) {
                 return false;
             }
